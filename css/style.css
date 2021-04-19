@@ -1,0 +1,482 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    text-transform: capitalize !important;
+}
+
+/* *************************
+header section starts here
+************************** */
+
+header {
+    background: url(../img/home-background.png);
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-position: center;
+    overflow: hidden;
+}
+
+.nav-bar {}
+
+.navigator {}
+
+.navigator ul {}
+
+.navigator a {
+    color: white !important;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    background: url(../img/li-bg.png) center bottom no-repeat;
+    color: #008ed6 !important;
+}
+ b 
+/* banner */
+
+.banner {}
+
+.banner-text {
+    color: white;
+    padding: 14% 2% 2% 2%;
+}
+
+.banner-text h6 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.banner-text h2 {
+    text-transform: capitalize;
+    font-size: 48px;
+    padding: 2% 0;
+}
+
+.banner-text p {
+    font-size: 18px;
+    color: #999999;
+    width: 96%;
+}
+
+.banner-button {
+    padding: 2%;
+}
+
+.banner-button button {
+    padding: 14px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: none;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.banner-button button:hover {
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+
+.banner-img {}
+
+.banner-img img {
+    width: 85%;
+    margin: 6% 6% 6% 13%;
+}
+
+/* *************************
+header section end here
+************************** */
+
+/* *************************
+features section starts here
+************************** */
+
+.feature-section {
+    border-bottom: 1px solid #bfa4a4;
+}
+
+.feature-title {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.feature-title h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.feature-title h2 {
+    text-transform: capitalize;
+    font-size: 36px;
+    color: black;
+}
+
+.feature-title img {}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999999;
+    padding: 7%;
+    border-radius: 50%;
+    background: none;
+}
+
+.feature h3 {
+    text-transform: capitalize;
+    padding: 20px 0 16px;
+    font-size: 24px;
+}
+
+.feature p {
+    font-size: 18px;
+    color: #999999;
+}
+
+.feature-wrapper {
+    padding-bottom: 3%;
+}
+
+/* *************************
+features section end here
+************************** */
+
+/* *************************
+key feature section starts here
+************************** */
+
+.key-feature-1 {
+    padding: 6% 0;
+}
+
+.key-feature-1-image {}
+
+.key-feature-1-content {
+    padding: 15% 0;
+}
+
+.key-feature-1-title {
+    text-align: left;
+}
+
+.key-feature-1-title h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0px 0px 0px 3px;
+    font-weight: 700;
+}
+
+.key-feature-1-title h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.key-feature-1-title img {
+    padding: 0 0 0 3px;
+}
+
+.key-feature-1-title p {
+    padding: 0 0 0 3px;
+    color: #999999;
+}
+
+.key-feature-1-details {
+    padding: 4px;
+    margin-top: 6%;
+}
+
+.details-1 {
+    margin-bottom: 2%;
+}
+
+.details-1 i {
+    color: #008ed9;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.details-1 p {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/* *************************
+key feature section end here
+************************** */
+
+/* *************************
+key-feature-2 starts here
+************************** */
+
+.key-feature-2 {
+    background: #f2f2f2;
+    padding: 5% 0% 3% 0%;
+}
+
+.key-feature-2-details {
+    padding: 15% 0;
+}
+
+.key-feature-2-image {
+    text-align: right;
+}
+
+.key-feature-2-image img {
+    width: 90%;
+}
+
+/* *************************
+key-feature-2 end here
+************************** */
+
+/* *************************
+slider section starts here
+************************** */
+
+.review-slider {
+    background: url(../img/testimonoal-background.png);
+    height: 88vh;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.review-slider h2 {
+    padding: 20% 0;
+    color: white;
+    font-family: staatliches;
+    font-size: 56px;
+}
+
+/* *************************
+slider section end here
+************************** */
+
+/* *************************
+short link section starts here
+************************** */
+
+.short-link {
+    height: 22vh;
+    background: black;
+}
+
+.short-link-details {
+    color: white;
+}
+
+.short-link-details h2 {
+    font-weight: 100;
+    text-transform: capitalize;
+    padding: 8% 0;
+}
+
+.short-link-details span {
+    font-weight: 700;
+}
+
+.short-link-button {
+    padding: 15% 0;
+}
+
+.short-link-button button {}
+
+.short-link-button button:last-child {
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+
+.short-link-button button {
+    padding: 14px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: none;
+    color: white;
+    border: none;
+    border: 1px solid #5a4343ad;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.short-link-button button:last-child:hover {
+    color: black;
+}
+
+.short-link-button button:hover {
+    background: #008ed6;
+}
+
+/* *************************
+short link section end here
+************************** */
+
+/* *************************
+pricing starts here
+************************** */
+
+.pricing-section {
+    height: 100vh;
+    background: white;
+    text-align: center;
+}
+
+.pricing-section h3 {
+    color: red;
+    font-family: staatliches;
+    font-size: 40px;
+    padding: 30% 0;
+}
+
+/* *************************
+pricing section end here
+************************** */
+
+/* *************************
+contact section starts here
+************************** */
+
+.contact-section {
+    background: #ededed;
+}
+
+.contact-section-title {
+    text-align: center;
+    padding: 5%;
+}
+
+.contact-section-title h6 {}
+
+.contact-section-title h2 {}
+
+.contact-section-title img {}
+
+.contact-section-details {
+    padding: 0 0 3% 0;
+}
+
+.contact-section-details-1 {
+    text-align: center;
+}
+
+.contact-section-details-1 i {
+    font-size: 30px;
+    color: #008ed7;
+    padding: 7%;
+}
+
+.contact-section-details-1 p {
+    color: #999999;
+}
+
+.contact-form {
+    background: black;
+    width: 70%;
+    height: 54vh;
+    margin: auto;
+}
+
+.contact-form form {
+    padding: 7%;
+    z-index: 99999;
+}
+
+.contact-form input {
+    padding: 6%;
+    width: 108%;
+    margin-bottom: 15px;
+    border: none;
+    border: 1px solid #2c2c31;
+    color: #2c2c31;
+    background: none;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.contact-message input {
+    width: 100%;
+    padding-bottom: 49%;
+}
+
+.contact-submit-button {
+    text-align: right;
+    margin-top: 3%;
+}
+
+.contact-submit-button input {
+    padding: 0;
+    width: 20%;
+    background: #008ed6;
+    padding: 2% 0;
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.map-image {}
+
+.map-image img {
+    width: 100%;
+}
+
+/* *************************
+contact section end here
+************************** */
+
+/* *************************
+footer section starts here
+************************** */
+
+.footer-section {
+    text-align: center;
+    background: black;
+}
+
+.footer-link {
+    padding: 2% 0% 2% 0%;
+}
+
+.footer-link i {
+    color: #444348;
+    font-size: 25px;
+    padding: 7px;
+}
+
+.footer-link i:hover {
+    color: #008ed6;
+}
+
+.footer-text {}
+
+.footer-text p {
+    color: #444348;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+
+/* *************************
+footer section end here
+************************** */
