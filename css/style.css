@@ -20,17 +20,11 @@ header section starts here
 header {
     background: url(../img/home-background.png);
     background-repeat: no-repeat;
-    height: 85vh;
+    background-size: cover;
+    height: 100vh;
     background-position: center;
     overflow: hidden;
 }
-
-.nav-bar {}
-
-.navigator {}
-
-.navigator ul {}
-
 .navigator a {
     color: white !important;
     font-size: 16px;
@@ -40,10 +34,15 @@ header {
     background: url(../img/li-bg.png) center bottom no-repeat;
     color: #008ed6 !important;
 }
- b 
-/* banner */
 
-.banner {}
+.sticky{
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    opacity: 80%;
+    background: #262628;
+}
+/* banner */
 
 .banner-text {
     color: white;
@@ -91,12 +90,9 @@ header {
     background: #008ed6;
     border: 1px solid #008ed6;
 }
-
-.banner-img {}
-
 .banner-img img {
-    width: 85%;
-    margin: 6% 6% 6% 13%;
+    width: 100%;
+    margin: 9.5% 0% 0% 10%;
 }
 
 /* *************************
@@ -127,9 +123,6 @@ features section starts here
     font-size: 36px;
     color: black;
 }
-
-.feature-title img {}
-
 .feature {
     text-align: center;
 }
@@ -167,11 +160,8 @@ key feature section starts here
 ************************** */
 
 .key-feature-1 {
-    padding: 6% 0;
+    padding: 80px 0 30px 0px;
 }
-
-.key-feature-1-image {}
-
 .key-feature-1-content {
     padding: 15% 0;
 }
@@ -260,13 +250,49 @@ slider section starts here
     height: 88vh;
     text-align: center;
     background-repeat: no-repeat;
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.review-slider h6 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0px 0px 0px 3px;
+    font-weight: 700;
 }
 
 .review-slider h2 {
-    padding: 20% 0;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
+.slider-section {
+    padding: 8% 0;
+}
+
+.client-1 {
     color: white;
-    font-family: staatliches;
-    font-size: 56px;
+    text-align: left;
+    padding: 20px 0;
+}
+.client-1 .col-md-10 p {
+    font-weight: 600;
+}
+
+.client-1 .col-md-10 span {
+    text-transform: capitalize;
+}
+
+/* slider */
+
+.review-text h4 {
+    color: white;
+    text-align: left;
+    font-size: 19px;
+    padding: 0px 35px 0px 0px;
+    font-style: italic;
 }
 
 /* *************************
@@ -299,9 +325,6 @@ short link section starts here
 .short-link-button {
     padding: 15% 0;
 }
-
-.short-link-button button {}
-
 .short-link-button button:last-child {
     background: #008ed6;
     border: 1px solid #008ed6;
@@ -338,16 +361,98 @@ pricing starts here
 ************************** */
 
 .pricing-section {
-    height: 100vh;
-    background: white;
     text-align: center;
+    padding: 80px 0;
+}
+.pricing-header h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0px 0px 0px 3px;
+    font-weight: 700;
 }
 
-.pricing-section h3 {
-    color: red;
-    font-family: staatliches;
-    font-size: 40px;
-    padding: 30% 0;
+.pricing-header h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+
+/* price cards */
+
+.pricing-card {
+    border: 1px solid #e0e0e0;
+}
+
+.pricing-card-wrapper {
+    padding: 5% 0 0;
+}
+.pricing-card-header h2 {
+    margin: 0;
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.pricing-card-price {
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.pricing-card-price h1 {
+    font-weight: bold;
+    font-size: 80px;
+    color: #1a1a1a;
+}
+
+.pricing-card-price h1::before {
+    content: "$";
+    font-size: 30px;
+    position: absolute;
+    left: 32%;
+    top: 11%;
+}
+
+.pricing-card-price p {
+    color: #999999;
+    font-style: italic;
+}
+.pricing-card-description p {
+    color: #bbbbbb;
+    font-size: 18px;
+}
+
+.pricing-card-description button {
+    padding: 12px 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+    color: #008ed6;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.pricing-card:hover .pricing-card-header {
+    color: #008ed6;
+}
+
+.pricing-card:hover .pricing-card-price {
+    background-color: #008ed6;
+    color: white !important;
+}
+
+.pricing-card:hover .pricing-card-price h1,
+.pricing-card:hover .pricing-card-price p {
+    color: white !important;
+}
+
+.pricing-card:hover .pricing-card-description button {
+    background-color: #008ed6;
+    color: white;
 }
 
 /* *************************
@@ -366,13 +471,6 @@ contact section starts here
     text-align: center;
     padding: 5%;
 }
-
-.contact-section-title h6 {}
-
-.contact-section-title h2 {}
-
-.contact-section-title img {}
-
 .contact-section-details {
     padding: 0 0 3% 0;
 }
@@ -400,11 +498,10 @@ contact section starts here
 
 .contact-form form {
     padding: 7%;
-    z-index: 99999;
 }
 
 .contact-form input {
-    padding: 6%;
+    padding: 9% 20px;
     width: 108%;
     margin-bottom: 15px;
     border: none;
@@ -417,12 +514,12 @@ contact section starts here
 
 .contact-message input {
     width: 100%;
-    padding-bottom: 49%;
+    padding-bottom: 51.2%;
 }
 
 .contact-submit-button {
     text-align: right;
-    margin-top: 3%;
+    margin-top: 0%;
 }
 
 .contact-submit-button input {
@@ -435,11 +532,14 @@ contact section starts here
     font-size: 12px;
     border-radius: 4px;
 }
+.contact-f .contact-form{
+    
+    z-index: 99999 ; 
 
-.map-image {}
-
-.map-image img {
-    width: 100%;
+}
+.map {
+    z-index: -99999 !important;
+    margin-top: -130px;
 }
 
 /* *************************
@@ -462,19 +562,18 @@ footer section starts here
 .footer-link i {
     color: #444348;
     font-size: 25px;
-    padding: 7px;
+    padding: 0px 13px;
 }
 
 .footer-link i:hover {
     color: #008ed6;
 }
-
-.footer-text {}
-
 .footer-text p {
     color: #444348;
     text-transform: uppercase;
-    padding-bottom: 2%;
+    padding: 2%;
+    font-size: 15px;
+    padding-top: 5px;
 }
 
 /* *************************
